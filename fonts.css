@@ -1,0 +1,72 @@
+.font-oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+  }
+
+  .font-oswald-light {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+  }
+  
+  .font-oswald-600 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .barlow-regular {
+      font-family: "Barlow", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+  .barlow-medium {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+    
+    .barlow-bold {
+      font-family: "Barlow", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+  
+
+    .top-section-heading {
+        max-width: 539px;
+        margin-bottom: 37px;
+        margin-left: auto;
+
+    }
+
+    .size-h-1{
+      font-size: 4rem; /* 64px */
+      line-height:auto;
+    }
+
+    .size-h-2{
+      font-size: 3rem; /* 48px */
+      line-height: auto;
+    }
+
+   .size-h-3 {
+        font-size: 3rem; /* 48px */
+        line-height: 1.25;
+    }
+   
+
+    .size-h-4{
+      font-size: 3.75rem; /* 60px */
+    } 
+    
+    .size-lg {
+      font-size: 2rem; /* 32px */
+    }
+
+    .size-sm{
+      font-size: 1rem; /*16px */
+    }
