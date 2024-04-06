@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Oswald:wght@200..700&family=Squada+One&display=swap');
 @import "variables.css";
 @import "fonts.css";
 
@@ -159,21 +159,188 @@
 .text-and-image-section{
   background-color: #E8E3D6;
   padding-top: 105px;
-  
+  position: relative;
+  min-height: 950px;
+}
+.text-and-image-section-2{
+  background-color: #1F3B53;
+  padding-top: 85px;
+  position: relative;
+  min-height: 950px;
+  height: 888px;
+  overflow: hidden;
+}
+.text-and-image-section-3{
+  background-color: white  ;
+  padding-top: 85px;
+  position: relative;
+  min-height: 950px;
+  height: 1132px;
+  overflow: hidden;
 }
 
+.text-and-image-section-3__text__inner {
+  max-width: 565px;
+  margin-left: auto;
+}
+
+.text-and-image-section-2__img-1 {
+  position: absolute;
+  right: -30px;
+   top: 85px;
+}
+
+.text-and-image-section-2__img-2 {
+  position: absolute;
+  right: 400px;
+    top: 200px;
+}
+
+.text-and-image-section-3__img-1 {
+  margin-bottom: 19px;
+  margin-top: 190px;
+}
+
+.text-and-image-section__image-container__img-1 {
+  position: absolute;
+  right:178px;
+  top: 443px;
+}
+
+.text-and-image-section__image-container__img-2 {
+  position: absolute;
+  right:-30px;
+  top:0px;
+}
 .text-and-image-section-heading{
   padding-bottom: 80px;
+}
+.text-and-image-section-2-heading{
+  padding-bottom: 80px;
+  color: #F8F3EF;
 }
 
 .text-and-image-section-content{  
   padding-bottom: 46px;
 }
-
+.text-and-image-section-2-content{  
+  padding-bottom: 46px;
+}
 .text-and-image-section__text{
- padding-right: 660px;
+ flex: 1;
+  padding-right: 57px;
+  padding-bottom: 100px;
+}
+.text-and-image-section-2__text{
+  flex: 1;
+   padding-right: 57px;
+   padding-bottom: 85px;
+   color: #F8F3EF;
+ }
+
+ .text-and-image-section-3__text{
+  flex: 1;
+   padding-right: 122px;
+   padding-bottom: 254px;
+   color: #234A69;
+ }
+
+ .text-and-image-section__image-container {
+  flex: 1;
+  position: relative;
+ }
+
+.text-and-image-section__text ul {
+  margin-top: 16px;
+  list-style-type: disc;
+  list-style-position: outside;
+  padding-left: 18px;
+}
+
+.text-and-image-section__text ul li {
+  margin-bottom: 16px;
+  line-height: 185%;
+}
+
+.text-and-image-section__image {
+  flex: 1;
+  position: relative;
+}
+
+.text-and-image-section__image img {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+  top: 0;
+  object-position: top;
 }
 
 .text-and-image-section__container {
   display: flex;
 }
+.text-and-image-section-3__container{
+  display: flex;
+}
+
+.text-bible-verse{
+  display: inline-block;
+  text-align: right;
+}
+
+.btn-main { 
+padding: 12px 50px;
+background-color: #3A7B8F;
+color: #F8F3EF;
+margin-top: 58px;
+display: inline-block;
+text-decoration: none;
+transition: background-color 200ms ease-in-out; 
+}
+
+.btn-main:hover {
+  background-color: aqua;
+}
+.btn-main--light { 
+  background-color: #FFFDF3;
+  color: #101D29;  
+  font-size: 16px;
+  font-weight: 500;
+  }
+
+  .btn-main--light:hover {
+    background-color: white;
+  }
+
+  .mt-500 {
+    margin-top: 500px;
+  }
+
+  .mt-100 {
+    margin-bottom: 100px;
+    margin-left: 225px;
+  }
+  .z-index-10{
+    z-index: 10;
+    position: relative;
+}
+
+.vertical-text {
+  position: absolute;
+  left: 0;
+  top: 64px;
+  writing-mode: vertical-lr;
+  font-family:  "Squada One", sans-serif;
+  font-size: 230px;
+  line-height: 0.65;
+  color: #D3CCB8;
+}
+
+.vertical-text-dark{
+  color: #101D29;
+  }
+
+  .vertical-text-light{
+    color:#DBE4E6;
+  }
